@@ -53,13 +53,6 @@
   ],
   "tasks": [
     {
-      "title": "crear un index.html",
-      "description": "con metodologia bem y con div",
-      "status": "pendiente",
-      "userId": 3,
-      "id": 1
-    },
-    {
       "title": "Diseñar base de datos",
       "description": "Modelo entidad-relación del sistema",
       "status": "pendiente",

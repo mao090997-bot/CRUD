@@ -7,20 +7,23 @@
 </head>
 <body>
 
-    <h1>Usuarios</h1>
+    <h1>Buscar Usuario por ID</h1>
 
-    <form id="formUsuario">
-        <input type="hidden" id="userId">
-        <input type="text" id="userName" placeholder="Nombre">
-        <input type="email" id="userEmail" placeholder="Email">
-        <button type="submit" id="btnGuardarUsuario">Guardar</button>
-        <button type="button" id="btnCancelarUsuario" hidden>Cancelar</button>
-    </form>
+    <input type="number" id="buscarUserId" placeholder="Escribe el ID">
+    <button id="btnBuscarUsuario">Buscar</button>
+    <button id="btnLimpiarUsuario">Limpiar</button>
+
+    <hr>
 
     <table border="1">
         <thead>
-            <tr><th>ID</th><th>Nombre</th><th>Email</th><th>Acciones</th></tr>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+            </tr>
         </thead>
+
         <tbody id="tablaUsuarios"></tbody>
     </table>
 
@@ -30,24 +33,33 @@
 
     <form id="formTarea">
         <input type="hidden" id="taskId">
+
         <input type="text" id="taskTitulo" placeholder="Titulo">
         <textarea id="taskDesc" placeholder="Descripcion"></textarea>
+
         <select id="taskUsuario">
             <option value="">Seleccionar usuario</option>
         </select>
+
         <button type="submit" id="btnGuardarTarea">Guardar</button>
         <button type="button" id="btnCancelarTarea" hidden>Cancelar</button>
     </form>
 
     <table border="1">
         <thead>
-            <tr><th>ID</th><th>Titulo</th><th>Descripcion</th><th>Usuario</th><th>Acciones</th></tr>
+            <tr>
+                <th>ID</th>
+                <th>Titulo</th>
+                <th>Descripcion</th>
+                <th>Usuario</th>
+                <th>Acciones</th>
+            </tr>
         </thead>
+
         <tbody id="tablaTareas"></tbody>
     </table>
 
+    <script src="script.js" type="module"></script>
 
-    
-<script src="script.js" type="module"></script>
 </body>
 </html>
