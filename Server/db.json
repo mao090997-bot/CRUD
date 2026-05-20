@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Torres",
+      "email": "ana.torres@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Gómez",
+      "email": "carlos.gomez@mail.com"
+    },
+    {
+      "id": 3,
+      "name": "María López",
+      "email": "maria.lopez@mail.com"
+    },
+    {
+      "id": 4,
+      "name": "Juan Pérez",
+      "email": "juan.perez@mail.com"
+    },
+    {
+      "id": 5,
+      "name": "Laura Martínez",
+      "email": "laura.martinez@mail.com"
+    },
+    {
+      "id": 6,
+      "name": "Pedro Sánchez",
+      "email": "pedro.sanchez@mail.com"
+    },
+    {
+      "id": 7,
+      "name": "Sofía Ramírez",
+      "email": "sofia.ramirez@mail.com"
+    },
+    {
+      "id": 8,
+      "name": "Andrés Morales",
+      "email": "andres.morales@mail.com"
+    },
+    {
+      "id": 9,
+      "name": "Valentina Cruz",
+      "email": "valentina.cruz@mail.com"
+    },
+    {
+      "id": 10,
+      "name": "Diego Herrera",
+      "email": "diego.herrera@mail.com"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "crear un index.html",
+      "description": "con metodologia bem y con div",
+      "status": "pendiente",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "title": "Diseñar base de datos",
+      "description": "Modelo entidad-relación del sistema",
+      "status": "pendiente",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "title": "Configurar servidor Node.js",
+      "description": "Inicializar proyecto con Express",
+      "status": "en progreso",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "title": "Crear componentes React",
+      "description": "Componentes reutilizables para el frontend",
+      "status": "pendiente",
+      "userId": 4,
+      "id": 4
+    },
+    {
+      "title": "Escribir pruebas unitarias",
+      "description": "Cobertura mínima del 80%",
+      "status": "completado",
+      "userId": 5,
+      "id": 5
+    },
+    {
+      "title": "Desplegar en producción",
+      "description": "Configurar CI/CD y deploy en Vercel",
+      "status": "pendiente",
+      "userId": 7,
+      "id": 6
+    },
+    {
+      "title": "Optimizar rendimiento",
+      "description": "Lazy loading y code splitting",
+      "status": "pendiente",
+      "userId": 9,
+      "id": 7
+    }
+  ]
+}
