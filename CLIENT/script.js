@@ -146,3 +146,11 @@ async function actualizarTarea(e) {
     }
     
 }
+
+
+// ¿Qué diferencia existe entre modificar un dato en el DOM y modificarlo en el servidor?
+
+// Modificar un dato en el DOM cambia solo lo que se ve en la página del navegador.
+// Ese cambio es temporal y se pierde al recargar la página.
+// Modificar un dato en el servidor cambia la información real guardada en la base de datos o backend.
+// Ese cambio es permanente y sigue existiendo aunque se recargue la aplicación.
