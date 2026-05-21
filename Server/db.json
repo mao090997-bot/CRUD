@@ -53,45 +53,21 @@
   ],
   "tasks": [
     {
-      "title": "Diseñar base de datos",
-      "description": "Modelo entidad-relación del sistema",
-      "status": "pendiente",
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "title": "Configurar servidor Node.js",
-      "description": "Inicializar proyecto con Express",
-      "status": "en progreso",
-      "userId": 2,
-      "id": 3
-    },
-    {
-      "title": "Crear componentes React",
-      "description": "Componentes reutilizables para el frontend",
-      "status": "pendiente",
-      "userId": 4,
-      "id": 4
-    },
-    {
-      "title": "Escribir pruebas unitarias",
-      "description": "Cobertura mínima del 80%",
-      "status": "completado",
-      "userId": 5,
+      "title": "dddd",
+      "description": "fggg",
+      "userId": "3",
       "id": 5
     },
     {
-      "title": "Desplegar en producción",
-      "description": "Configurar CI/CD y deploy en Vercel",
-      "status": "pendiente",
-      "userId": 7,
+      "title": "fgg",
+      "description": "fggg",
+      "userId": "2",
       "id": 6
     },
     {
-      "title": "Optimizar rendimiento",
-      "description": "Lazy loading y code splitting",
-      "status": "pendiente",
-      "userId": 9,
+      "title": "fgfg",
+      "description": "gfgfgf",
+      "userId": "2",
       "id": 7
     }
   ]

@@ -7,29 +7,7 @@
 </head>
 <body>
 
-    <h1>Buscar Usuario por ID</h1>
-
-    <input type="number" id="buscarUserId" placeholder="Escribe el ID">
-    <button id="btnBuscarUsuario">Buscar</button>
-    <button id="btnLimpiarUsuario">Limpiar</button>
-
-    <hr>
-
-    <table border="1">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-
-        <tbody id="tablaUsuarios"></tbody>
-    </table>
-
-    <hr>
-
-    <h1>Tareas</h1>
+<h1>Tareas</h1>
 
     <form id="formTarea">
         <input type="hidden" id="taskId">
@@ -41,8 +19,8 @@
             <option value="">Seleccionar usuario</option>
         </select>
 
-        <button type="submit" id="btnGuardarTarea">Guardar</button>
-        <button type="button" id="btnCancelarTarea" hidden>Cancelar</button>
+        <button class="btn-guardar" type="submit" id="btnGuardarTarea">Guardar</button>
+        
     </form>
 
     <table border="1">
@@ -59,7 +37,8 @@
         <tbody id="tablaTareas"></tbody>
     </table>
 
-    <script src="script.js" type="module"></script>
+     
+<script src="script.js" type="module"></script>
 
 </body>
 </html>
